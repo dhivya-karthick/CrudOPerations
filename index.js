@@ -32,7 +32,7 @@ return response;
 
 const createCustomerData =async(event) =>
 {
-  console.log("Creates an customer data");
+  console.log("Creates an customer datas");
   let req =JSON.parse(event.body);
   const params ={
     TableName:'CUSTOMER-DATA',
